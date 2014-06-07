@@ -1,4 +1,28 @@
 tebak-pasal
 ===========
 
-Uji hafalan pasal UUD 1945
+Quiz on UUD 1945 articles.
+See the demo: http://tebakpasal.uphero.com/
+
+@Instructions - Basic
+Put all the files in the same folder. And these files as well:
++ plus jquery.min.js ( https://github.com/jquery/jquery )
++ plus toastr.min.js, toastr.min.css ( https://github.com/CodeSeven/toastr )
+
+and you're good to go.
+
+If you'd like to set up your own highscore database in your own server, do these to your MySQL database:
+
+CREATE TABLE highscores(timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP, name TEXT, ip TEXT, score INT)
+
+make a table named "highscores", with fields of:
++ timestamp, type: TIMESTAMP, default: CURRENT_TIMESTAMP
++ name, type: TEXT
++ ip, type: TEXT
++ score, type: INT
+
+Edit the php files inside xxxx folder with your details and upload them to your own server.
+Then edit the ajax at fungsitp.js -> TERMINATION FUNCTIONS -> xxxx() and highScores(),
+their url key should have the value of their respective php script url in your server.
+
+CC BY-NC-SA Darmawan Sidiq 2014
