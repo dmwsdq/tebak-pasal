@@ -1,0 +1,92 @@
+body{
+	font-family: /*'Raleway',**/ sans-serif;
+	background-color:#FFFFCC;
+}
+
+td{
+	background-color:#BD362F;
+	color:#FFFFFF;
+	padding:4px;
+	border: 1px solid silver;	
+}
+
+.tombol{
+	background-color:#BD362F;
+	color:#FFFFFF;
+	padding:4px;
+	margin: 2px 2px 2px 2px;
+	border: 1px solid silver;
+}
+
+.opsi{
+	background-color:#BD362F;
+	color:#FFFFFF;
+	padding:4px;
+	border: 1px solid silver;
+}
+
+.tombol:hover {
+	background-color:#71201C;
+	cursor:pointer;
+}
+.opsi:hover {
+	background-color:#71201C;
+	cursor:pointer;
+}
+
+.bab{
+	margin: 1px 3px 1px 3px;
+	display:inline-block;
+	color:white;
+	background-color:blue;
+}
+
+.pasal{
+	margin: 1px 3px 1px 3px;
+	display:inline-block;
+	color:white;
+	background-color:black;
+}
+
+.ayat{
+	margin: 1px 3px 1px 3px;
+	display:inline-block;
+	color:white;
+	background-color:black;
+}
+
+.amandemen{
+	margin: 1px 3px 1px 3px;
+	display:inline-block;
+	color:white;
+	background-color:black;
+}
+
+.penaltylabel{
+	font-size:9pt;
+	text-align:center;
+}
+
+.penaltyinfo{
+	font-size:20pt;
+	text-align:center;
+}
+
+.skor1{
+	position: absolute;
+    left: 80%;
+    top: 50px;
+    font-size:10px;
+}
+
+.skor2{
+	position: absolute;
+    left: 80%;
+    top: 10px;
+    font-size:10px;
+}
+
+#judul{
+	font-size: 50px;
+}
+
