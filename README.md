@@ -4,7 +4,9 @@ tebak-pasal
 Quiz on UUD 1945 articles.
 See the demo: http://tebakpasal.uphero.com/
 
-@Instructions - Basic
+The UUD 1945 text are taken from Wikisource ( http://id.wikisource.org/wiki/Undang-Undang_Dasar_Negara_Republik_Indonesia_Tahun_1945 )
+
+@Instructions
 Put all the files in the same folder. And these files as well:
 + plus jquery.min.js ( https://github.com/jquery/jquery )
 + plus toastr.min.js, toastr.min.css ( https://github.com/CodeSeven/toastr )
