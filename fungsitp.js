@@ -181,7 +181,7 @@ function displayScreenPenalti(myID){
 	$("#container").html("");
 	var uuditem = getByID(parseInt(myID));
 	if(AUDIO_ON){
-		$("#audio").html("<audio autoplay> <source src='http://tts-api.com/tts.mp3?q="+encodeURI(getJudul(myID)+" "+uuditem['bunyi'])+" type='audio/mpeg'></audio>");
+		$("#audio").html("<audio autoplay> <source src='http://indo.kumandang.com/tts.php?voice=id1&text="+encodeURI(getJudul(myID)+" "+uuditem['bunyi'])+"' type='audio/mpeg'></audio>");
     	$("#container").append("Baca dan dengarkan <br/>");
     } else {
    		$("#container").append("Baca <br/>");
